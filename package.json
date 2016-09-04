@@ -1,0 +1,19 @@
+{
+  "name": "vtipy",
+  "version": "1.0.0",
+  "description": "Databaze vtipu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matkuscz/vtipy.git"
+  },
+  "author": "Tomas Matejka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matkuscz/vtipy/issues"
+  },
+  "homepage": "https://github.com/matkuscz/vtipy#readme"
+}
