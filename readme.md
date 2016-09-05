@@ -1,1 +1,2 @@
 # Vtipy
+Databáze vtipů
