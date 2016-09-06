@@ -2,6 +2,10 @@
   "name": "vtipy",
   "version": "1.0.0",
   "description": "Databaze vtipu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matkuscz/vtipy.git"
@@ -85,4 +89,7 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.0"
   }
+=======
+  "homepage": "https://github.com/matkuscz/vtipy#readme"
+>>>>>>> d6175cb4a53971174019063811d9c9affa07c219
 }
