@@ -28,7 +28,7 @@ class Joke extends React.Component {
       <div className='container'>
         <div className='joke-info clearfix'>
           <h2><strong>{this.state.name}</strong></h2>
-          <h4 className='lead'>Zde je vtip: <strong>{this.state.text}</strong></h4>
+          <h4 className='lead'>{this.state.text}</h4>
         </div>
       </div>
     );

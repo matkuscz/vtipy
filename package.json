@@ -89,7 +89,4 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.0"
   }
-=======
-  "homepage": "https://github.com/matkuscz/vtipy#readme"
->>>>>>> d6175cb4a53971174019063811d9c9affa07c219
 }

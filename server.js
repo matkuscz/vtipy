@@ -82,6 +82,16 @@ app.post('/api/report', function(req, res, next) {
   });
 });
 
+/**
+ * GET /api/jokes/top
+ * Return 10 jokes.
+ */
+app.get('/api/top', function (req, res, next) {
+  Joke.find().limit(10).exec(function(err, jokes) {
+    res.send(jokes);
+  });
+});
+
 app.use(function(req, res) {
   Router.match({ routes: routes.default, location: req.url }, function(err, redirectLocation, renderProps) {
     if (err) {
