@@ -3,31 +3,44 @@ A jokes database
 
 ##Instalation
 
-###Mac /Linux
+###Linux
 
-$ sudo apt-get install npm
+```javascript
 
-or 
+    sudo apt-get install npm
+```
+##Mac
 
-$brew update
-$brew postinstall
+```javascript
+
+    brew update
+    brew postinstall
+```
 
 //
-$git clone https://github.com/matkuscz/vtipy.git
-$cd este-app
+```javascript
+
+    git clone https://github.com/matkuscz/vtipy.git
+    cd vtipy
+
 //
 
-$npm install
+```javascript
 
-$npm install --global gulp-cli
+    npm install
 
-$gulp
+    npm install nodemon
 
+    npm install --global gulp-cli
+
+    gulp
+```
 
 In a new tab run app
 
-$npm run watch
+```javascript
 
-//if there is problem with nodemon server.js run:
-$npm install nodemon
+    npm run watch
+```
+
 
