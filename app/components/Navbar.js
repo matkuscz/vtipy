@@ -8,8 +8,7 @@ class Navbar extends React.Component {
               <div className="container">
                   <div className="navbar-header">
                       <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                          <span className="sr-only">Toggle navigation</span>
-                          <span className="icon-bar"></span>
+                          <span className="sr-only">Vtipy</span>
                           <span className="icon-bar"></span>
                           <span className="icon-bar"></span>
                       </button>
@@ -19,9 +18,6 @@ class Navbar extends React.Component {
                       <ul className="nav navbar-nav">
                           <li>
                               <a href="#">About</a>
-                          </li>
-                          <li>
-                              <a href="#">Services</a>
                           </li>
                           <li>
                               <a href="#">Contact</a>
