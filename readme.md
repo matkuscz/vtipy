@@ -11,21 +11,19 @@ A jokes database
 ```
 ##Mac
 
-```javascript
+1) open console and clone repo 
 
-    brew update
-    brew postinstall
-```
-
-//
 ```javascript
 
     git clone https://github.com/matkuscz/vtipy.git
     cd vtipy
+```
 
-//
-
+2)
 ```javascript
+
+    brew update
+    brew postinstall
 
     npm install
 
